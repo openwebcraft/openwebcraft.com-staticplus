@@ -1,0 +1,13 @@
+/* TEAM */  
+You:            Matthias Geisler
+Site:           matthias@openwebcraft.com
+Twitter:        @matthiasgeisler
+Location:       Donauwoerth, Germany
+                            
+/* SITE */      
+Last update:    2012/12/30
+Standards:      HTML5, CSS3, JavaScript
+Components:     Modernizr, jQuery
+Language:       English
+Software:       Sublime Text 2
+Server:         Iris Couch, CouchDB
