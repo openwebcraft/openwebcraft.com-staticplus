@@ -1,0 +1,1 @@
+worker: static+ $COUCH_SERVER $COUCH_DB $DOMAIN --prefix=$SP_PREFIX --staging-prefix=$SP_STAGING_PREFIX --seed=$SP_SEED --publish=$SP_PUBLISH --bounce-prefix=$SP_BOUNCE_PREFIX --watch
