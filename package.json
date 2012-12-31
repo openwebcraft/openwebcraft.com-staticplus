@@ -4,7 +4,7 @@
 , "description": "openwebcraft.com web site builder"
 , "author": { "name": "Matthias Geisler" , "email": "matthias@openwebcraft.com" }
 ,  "engines": {
-    "node": "0.8.16",
+    "node": "0.8.14",
     "npm":  "1.1.69"
   }
 , "dependencies": 
