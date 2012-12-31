@@ -1,0 +1,11 @@
+{ "name"   : "openwebcraft.com"
+, "private": true
+, "version": "0.0.1"
+, "description": "openwebcraft.com web site builder"
+, "author": { "name": "Matthias Geisler" , "email": "matthias@openwebcraft.com" }
+, "engines": [ "node" ]
+, "dependencies": 
+	{ 
+		"static-plus": "git+ssh://git@github.com:iriscouch/static-plus.git#master"
+	}
+}
