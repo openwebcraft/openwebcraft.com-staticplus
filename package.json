@@ -6,6 +6,6 @@
 , "engines": [ "node" ]
 , "dependencies": 
 	{ 
-		"static-plus": "git+ssh://git@github.com:iriscouch/static-plus.git#master"
+		"static-plus": "git://github.com/iriscouch/static-plus.git#master"
 	}
 }
