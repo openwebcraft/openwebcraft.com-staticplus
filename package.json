@@ -9,6 +9,6 @@
   }
 , "dependencies": 
 	{ 
-		"static-plus": "git://github.com/iriscouch/static-plus.git#master"
+		"static-plus": "git://github.com/openwebcraft/static-plus.git#master"
 	}
 }
