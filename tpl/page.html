@@ -32,7 +32,23 @@
             <div class="page-header">
                 <h1>{{headline}}</h1>
             </div>
-            {{{markdown body}}}
+            {{#if body}}
+              {{{markdown body}}}
+            {{/if}}
+            {{#if posts}}            
+            <div class="blog">
+                <div class="posts">
+                {{#each posts}}
+                    <div class="post">
+                        <div class="date">{{date}}</div>
+                        <div class="author">{{author}}</div>
+                        <div class="title">{{title}}</div>
+                        <div class="content">{{{markdown content}}}</div>
+                    </div>
+                {{/each}}
+                </div>
+            </div>
+            {{/if}}
           </div>
 
           <div id="push"></div>
