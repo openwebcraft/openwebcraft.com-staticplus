@@ -7,9 +7,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{title}}</title>
-        <meta name="description" content="{{meta-description}}">
-        <meta name="keywords" content="{{meta-keywords}}">
-        <meta name="author" content="{{meta-author}}">
+        {{#each meta}}
+            <meta name="{{name}}" content="{{content}}">
+        {{/each}}
         <meta name="viewport" content="width=device-width">
 
         <link type="text/plain" rel="author" href="/humans.txt" />
