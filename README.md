@@ -29,7 +29,7 @@ Create a `.env` file with your project configuration:
     COUCH_DB=example_com
     DOMAIN=example.com
     SP_PREFIX=
-    SP_STAGING_PREFIX=staging.
+    SP_STAGING_PREFIX=staticplus.
     SP_BOUNCE_PREFIX=www.
     SP_SEED=./tpl
     SP_PUBLISH=./assets
