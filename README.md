@@ -34,11 +34,11 @@ Create a `.env` file with your project configuration:
     SP_SEED=./tpl
     SP_PUBLISH=./assets
 
-Push your local environment file to Heroku: `heroku config:push`
-
 Next, deploy the application to Heroku.
 
 Create the app: `heroku create`
+
+Push your local environment file to Heroku: `heroku config:push`
 
 Deploy the code: `git push heroku master`
 
